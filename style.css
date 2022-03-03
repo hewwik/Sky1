@@ -191,8 +191,7 @@ p {
 	right:50px;
 	cursor:pointer;
 	z-index:1000
-		transform:scale(1);
-		box-shadow:0 0 0 5px #99579e
+		
 }
 .jd__controll:before{
 	width:100px;
@@ -202,8 +201,7 @@ p {
 	top:calc(50% - 50px);
 	left:calc(50% - 50px);
 	animation:pulse .5s ease-out infinite
-		transform:scale(0);
-		box-shadow:0 0 0 0 #fff
+		
 }
 @keyframes pulse{
 	0%{
