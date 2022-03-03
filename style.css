@@ -79,7 +79,7 @@ body:before {
   display: block;
   transform: translate(-50%, -50%);
   animation: puff 1s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
-  background: #e0bce7 url("https://images.unsplash.com/photo-1456271390536-693558280c8f?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80&cs=tinysrgb") no-repeat center center;
+  background: #e0bce7 url("https://img.xatblog.net/image/IvWzXHFdqhI.png") no-repeat center center;
   background-size: cover;
   background-color: #e0bce7;
   background-blend-mode: soft-light;
