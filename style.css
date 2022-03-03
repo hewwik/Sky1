@@ -194,7 +194,10 @@ p {
   --font-2:'Kalam',cursive
 }
 
-
+:after,:before{
+  content:'';
+  position:absolute
+}
 
 body{
   font-family:var(--font);
