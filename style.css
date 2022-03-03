@@ -183,7 +183,58 @@ p {
   animation: moveIn 1s 1s ease forwards;
 
 }
-.jd__controll{
+
+@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kalam&family=Poppins:wght@200;
+300;
+400;
+600&display=swap);
+:root{
+  --font:'Poppins',sans-serif;
+  --font-1:'Great Vibes',cursive;
+  --font-2:'Kalam',cursive
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+}
+:after,:before{
+  content:'';
+  position:absolute
+}
+
+body{
+  font-family:var(--font);
+  font-size:16px;
+  overflow-x:hidden;
+  min-height:100vh;
+  color:#fff
+}
+a,span{
+  display:inline-block
+}
+a{
+  text-decoration:None
+}
+ul{
+  list-style:none
+}
+i{
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+
+.container-fluid{
+  background:#111;
+  height:820px;
+  min-height:100vh;
+  position:relative;
+  overflow:hidden
+}
+
+.controll{
 	position:fixed;
 	width:100px;
 	height:100px;
@@ -193,7 +244,7 @@ p {
 	z-index:1000
 		
 }
-.jd__controll:before{
+.controll:before{
 	width:100px;
 	height:100px;
 	box-shadow:0 0 0 5px #fff;
@@ -213,7 +264,7 @@ p {
 		box-shadow:0 0 0 5px #99579e
 }
 }
-.jd__controll i,i.fa-play,i.fa-stop{
+.controll i,i.fa-play,i.fa-stop{
 	width:100px;
 	height:100px;
 	display:flex;
