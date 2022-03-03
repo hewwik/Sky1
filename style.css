@@ -79,9 +79,9 @@ body:before {
   display: block;
   transform: translate(-50%, -50%);
   animation: puff 1s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
-  background: #f59dd4 url("https://img.xatblog.net/image/jR3x7G3eW8I.png") no-repeat center center;
+  background: #f59dd4 url("https://img.xatblog.net/image/IvWzXHFdqhI.png") no-repeat center center;
   background-size: cover;
-  background-color: #e0bce7;
+  background-color: #f59dd4;
   background-blend-mode: soft-light;
 }
 
