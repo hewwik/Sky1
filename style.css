@@ -208,7 +208,7 @@ p {
 }
 	100%{
 		transform:scale(1);
-		box-shadow:0 0 0 5px rgba(255,255,255,0)
+		box-shadow:0 0 0 5px #99579e
 }
 }
 .jd__controll i,i.fa-play,i.fa-stop{
